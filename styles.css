@@ -5,8 +5,11 @@ main {
     width: 100px;
     height: 100px;
     margin: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgb(92, 88, 151);
     border-radius: 6px;
     font-size: 30px;
     cursor: pointer;
+}
+input {
+    background-color: rgb(218, 233, 255);
 }
