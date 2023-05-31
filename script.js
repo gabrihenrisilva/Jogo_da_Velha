@@ -287,4 +287,10 @@ if(jogadas==9){
     lblJogadas.innerText = '';
     return;
 }
+if(controle == 0){
+    lblJogador.innerText = 'Jogador X';
+} else {
+    lblJogador.innerText = 'Jogador O';
+}
+ lblJogadas.innerText = '(' + (jogadas+1) + 'ª Jogada)';
 }
