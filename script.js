@@ -162,8 +162,8 @@ function clickBtn9(){
    
     let btn = document.getElementById('btn9');
 
-    if (btn.value == " " && !finalJogo) {
-        if (controle == 0){ jogadas++;
+    if (btn.value == " " && !finalJogo) {jogadas++;
+        if (controle == 0){ 
             controle = 1;
             btn.value = "X";
             btn9 = "X";
